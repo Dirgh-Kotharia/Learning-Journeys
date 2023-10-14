@@ -10,16 +10,16 @@ This challenge is an introduction to the Python . it also covers the basics of [
 1. Download all the files from the challenge. it should have 3 files in total : Python Script , Password File and Flag file with encrypted flag
 2. Upon inspecting a few things stand out from the Python Script : 
 	1. 1. First at the beginning we notice it has help function : 
-	   ![help-function](python-wrangler(1).png) 
+	   ![help-function](assets/Python-wrangler/python-wrangler(1).png) 
 	2. The other thing that stands out of what seems decryption function : 
-	   ![decryption-function](python-wrangler(2).png)
+	   ![decryption-function](assets/Python-wrangler/python-wrangler(2).png)
 
 3. Upon running the Python Script without argument we get the help text on how to use the script :
 ```bash
 python3 <name-of-python-script>.py 
 ```
 
-![help-output](help-function.png) 
+![help-output](assets/Python-wrangler/help-function.png) 
 
 4. Upon reading the help text and the decryption function we can understand that we can run python script with -d flag to decrypt an encrypted text which can be passed as an argument after the -d flag
 ```bash 
