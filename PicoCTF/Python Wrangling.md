@@ -10,7 +10,8 @@ This challenge is an introduction to the Python . it also covers the basics of [
 1. Download all the files from the challenge. it should have 3 files in total : Python Script , Password File and Flag file with encrypted flag
 2. Upon inspecting a few things stand out from the Python Script : 
 	1. First at the beginning we notice it has help function : 
-	   ![help-function](assets/Python-wrangler/python-wrangler(1).png) 
+	   ![help-function](assets/Python-wrangler/python-wrangler(1).png)
+	    
 	2. The other thing that stands out of what seems decryption function : 
 	   ![decryption-function](assets/Python-wrangler/python-wrangler(2).png)
 
