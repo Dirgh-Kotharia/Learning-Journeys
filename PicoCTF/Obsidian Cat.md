@@ -1,6 +1,7 @@
 ---
 tags:
   - general-skills
+points: 5 points
 ---
 
 ## Write-up

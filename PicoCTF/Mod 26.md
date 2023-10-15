@@ -1,6 +1,7 @@
 ---
 tags:
   - cryptography
+points: 10 points
 ---
 ## Write-up
 ##### Description
