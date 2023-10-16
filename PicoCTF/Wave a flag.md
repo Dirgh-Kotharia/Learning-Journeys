@@ -10,7 +10,7 @@ This is a simple challenge involving the permission on a linux file. The challen
 
 ##### Following are the steps for the challenge: 
 1. Download the file onto your linux machine. 
-    If you are leveraging webshell provided by picoCTF you can leverage [wget](https://www.geeksforgeeks.org/wget-command-in-linux-unix) command. 
+    If you are using webshell provided by picoCTF you can leverage [wget](https://www.geeksforgeeks.org/wget-command-in-linux-unix) command. 
     Link to the file can be copied from the website by right-clicking on the link and clicking on "copy clean link"
     
     ![clean-link](assets/Wave-a-flag/clean-link.png)

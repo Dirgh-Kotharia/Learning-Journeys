@@ -4,7 +4,7 @@ tags:
 points: 10 points
 ---
 ## Write-up
-##### Description
+##### Description :
 This challenge is an introduction to cryptography. It covers one of the simpler algorithms called [ROT13](https://en.wikipedia.org/wiki/ROT13) . 
 
 ##### Following are the steps for the challenge: 
