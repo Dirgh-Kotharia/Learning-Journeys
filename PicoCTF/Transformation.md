@@ -93,16 +93,17 @@ If any even place character (2nd,4th,6th etc.) whose Unicode value is higher tha
 first_decoded_character = chr(ord(encoded_flag[i]) >> 8)
 decoded_string.append(first_decoded_character)
 
-## shifting the binary value right will return us the orginal first character since when binary right shift happens,the moved bits are dropped.Refer to decoding explanation of Step 1 of decoding for details.
+## shifting the binary value right will return us the orginal first character since when binary right shift happens,the moved bits are dropped.
+## Refer to decoding explanation of Step 1 of decoding for details.
 ```
 
 8. for the second character ,we need to subtract the integer value of first decoded character from the integer value of the encoded character and then convert the result to a character which will be second character.
    
 ```python
-
 second_decoded_character = chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8))
 decoded_string.append(second_decoded_character)
-## Subtracting the integer value of decoded character we get the second character. we are jsut reversing the operation. Refer to decoding explanation of Step 2 of decoding for details.
+## Subtracting the integer value of decoded character we get the second character. we are jsut reversing the operation. 
+## Refer to decoding explanation of Step 2 of decoding for details.
 ```
 
 9. Now we just have to iterate through the loop of the function. Once we put the above code snippet into a loop and we run the function we get the flag.   
