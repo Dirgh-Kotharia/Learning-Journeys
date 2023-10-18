@@ -144,7 +144,8 @@ decoded_string.append(second_decoded_character)
 1. After completing the challenge I was looking for write-up from other people who might have solved it for learning different technique others might have applied I found this post by another user xnomas on CTFtime : https://ctftime.org/writeup/26983 .  
    
 ``` note
-Note: The same limitation as above mentioned method apply here . If any even placed character are higher than 255 in unicode value this will fail as well
+Note: The same limitation as above mentioned method apply here . 
+If any even placed character are higher than 255 in unicode value this will fail as well
 ```
 
 ```python
