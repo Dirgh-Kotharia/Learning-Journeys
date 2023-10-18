@@ -18,7 +18,7 @@ nc <target-ip-or-fqdn> <target-port>
    
    ![netcat-output](assets/nice-netcat/netcat-output.png) 
 
-3. upon trying a couple of times, we get same output. this is to check if we get random output. Since we don't get different output, we can assume the flag is within the numbers. I piped the netcat output to a [tr]() command to convert "\\n"(newline) to " "(space) so that we can view the output in a easier. 
+3. upon trying a couple of times, we get same output. this is to check if we get random output. Since we don't get different output, we can assume the flag is within the numbers. I piped the netcat output to a [tr](https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/) command to convert "\\n"(newline) to " "(space) so that we can view the output in a easier. 
    
    Note: the URL for netcat and output numbers might vary
    ![netcat-tr](assets/nice-netcat/netcat-tr.png)
