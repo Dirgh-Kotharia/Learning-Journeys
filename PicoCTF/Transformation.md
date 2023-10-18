@@ -18,29 +18,23 @@ This challenge introduces us the concept of reverse engineering at a high level.
 ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0,len(flag),2)])
 ```
 
-3. The given snippet can get difficult in the provided format . Upon writing it in a readable format we get : 
+3. The given snippet can get difficult to understand in the provided format . Upon writing it in a readable format we get : 
    
 ```python
-for i in range(0, len(flag), 2) :    ## Loops through the string jumping 2 indexes
+for i in range(0, len(flag), 2) : ## Loops through the string jumping 2 indexes
 
-	first_character = (ord(flag[i]) << 8)  
-## Takes the first character from the set and gets its integer value with ord and it does left binary shift by 8 bits
-## Binary shift moves the binary value to left by adding additional zeros. 
-## eg : 7 in binary is 111 and after left binary shift of 8 times it becomes 11100000000 which is equal to 1792 in decimal
+	first_character = (ord(flag[i]) << 8) ## Takes the first character from the set and gets its integer value with ord and it does left binary shift by 8 bits
 
-	second_character = ord(flag[i + 1])
-## gets the integer value for second character from the set
+	second_character = ord(flag[i + 1]) ## gets the integer value for second character from the set
 	
-	combined_character = chr(first_character + second_character)
-## adds the integer value of first (after binary shift) and second character and converts it to a corresponding character in Unicode
+	combined_character = chr(first_character + second_character) ## adds the integer value of first (after binary shift) and second character and converts it to a corresponding character in Unicode
 
-	encoded_message.append(combined_character)
-## adds the newly geenrated character to a list
+	encoded_message.append(combined_character) ## adds the newly geenrated character to a list
 	
 print(''.join(encoded_message)) ## prints out the final string by combining all the generated string
 ``` 
 
-4. The simple looking python code mentioned in the challenge is doing a decently complex algorithm. We also notice that since the program takes 2 characters from original string and encodes them in 1 the output string is half the length of the original string. Also if you try to use the above code to test please ensure the string is even in length as the code doesn't have a error handling for odd length string.
+4. The simple looking python code mentioned in the challenge is doing a decently complex algorithm. We also notice that since the program takes 2 characters from original string and encodes them in 1 the output string is half the length of the original string. 
    
 5. Lets understand the encoding by taking an example : 
    
@@ -101,7 +95,7 @@ Note : This only works becasue the flag are usually combination of english chara
    
 ```python 
 first_decoded_character = chr(ord(encoded_flag[i]) >> 8)
-
+decoded_string.append(first_decoded_character)
 ## shifting the binary value right will return us the orginal first character since when binary right shift happens,
 
 ## the moved bits are dropped.
@@ -110,14 +104,14 @@ first_decoded_character = chr(ord(encoded_flag[i]) >> 8)
 
 ## and if we take 1799 it will be 11100000111 and after 8 bit right shift we will get 111 which is 7 in decimal
 
-decoded_string.append(first_decoded_character)
 ```
 
 8. for the second character ,we need to subtract the integer value of first decoded character from the integer value of the encoded character and then convert the result to a character which will be second character.
    
 ```python
-second_decoded_character = chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8))
 
+second_decoded_character = chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8))
+decoded_string.append(second_decoded_character)
 ## Subtracting the integer value of decoded character we get the second character. we are jsut reversing the operation
 
 ## we did during encoding
@@ -132,7 +126,6 @@ second_decoded_character = chr(ord(encoded_flag[i]) - (ord(first_decoded_charact
 
 ## ==> chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8)) = second_decoded_character
 
-decoded_string.append(second_decoded_character)
 ```
 
 9. Now we just have to iterate through the loop of the function. Once we put the above code snippet into a loop and we run the function we get the flag.   
