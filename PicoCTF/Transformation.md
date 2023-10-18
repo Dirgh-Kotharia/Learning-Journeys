@@ -65,22 +65,20 @@ Example text = "灩"
 
 Step 1 : lets try to get first character by reversing the left shift operator by doing ord("灩") >> 8
 Explaination : 
-when we do ord("灩") we get 28777 in decimal
-When we do ">> 8" on it, we go from binary value of '0111 0000 0110 1001' to '0111 0000' since when we do right shift the lost bits are dropped
-'0111 0000' in binary is 112 in decimal 
-if we do a chr(112) we get "p" which was our first character
+1. when we do ord("灩") we get 28777 in decimal.
+2. When we do ">> 8" on it, we go from binary value of '0111 0000 0110 1001' to '0111 0000' since when we do right shift the lost bits are dropped.
+3. '0111 0000' in binary is 112 in decimal,if we do a chr(112) we get "p" which was our first character
 
 Step 2 : lets try to get second character 
 Explaination : 
-now that we have the first character ("p") we can reverse the method from the encoding to get the second value
-we can get the interger value by subtracting (ord("p") << 8 ) from the ord("灩")
+1. now that we have the first character ("p") we can reverse the method from the encoding to get the second character. 
+2. we can get the interger value for second character by subtracting (ord("p") << 8 ) from the ord("灩"): 
+   we know from the from the encoding that
+   ord("灩") = [ord("p") << 8] + ord(second_character)
+   so ord (second_character) = ord("灩") - [ord("p") << 8]
+   upon doing so we get ord(second_character) = 28777 - 28672 = 105
 
-we know from the from the encoding that
-ord("灩") = [ord("p") << 8] + ord(second_character)
-so ord (second_character) = ord("灩") - [ord("p") << 8]
-upon doing so we get ord(second_character) = 105
-
-so second_character is chr(105) = "i"
+3. second character is chr(105) = "i"
 
 
 now we just loop across the encoded string and combine the results to form a full flag
@@ -93,14 +91,8 @@ Note : This only works becasue the flag are usually combination of english chara
 ```python 
 first_decoded_character = chr(ord(encoded_flag[i]) >> 8)
 decoded_string.append(first_decoded_character)
-## shifting the binary value right will return us the orginal first character since when binary right shift happens,
 
-## the moved bits are dropped.
-
-## eg : 1794 in binary would be 11100000010 and if it is right shifted 8 bit we will get 111 which is 7 in decimal
-
-## and if we take 1799 it will be 11100000111 and after 8 bit right shift we will get 111 which is 7 in decimal
-
+## shifting the binary value right will return us the orginal first character since when binary right shift happens,the moved bits are dropped.Refer to decoding explanation of Step 1 of decoding for details.
 ```
 
 8. for the second character ,we need to subtract the integer value of first decoded character from the integer value of the encoded character and then convert the result to a character which will be second character.
@@ -109,20 +101,7 @@ decoded_string.append(first_decoded_character)
 
 second_decoded_character = chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8))
 decoded_string.append(second_decoded_character)
-## Subtracting the integer value of decoded character we get the second character. we are jsut reversing the operation
-
-## we did during encoding
-
-## encoding we did :
-
-## encoded_flag[i] = chr((ord(first_decoded_character) << 8) + ord(second_decoded_character))
-
-## ==> ord(encoded_flag[i]) = (ord(first_decoded_character) << 8) + ord(second_decoded_character) bcs ord() and chr () are reverse function
-
-## ==> ord(encoded_flag[i]) - (ord(first_decoded_character) << 8) = ord(second_decoded_character)
-
-## ==> chr(ord(encoded_flag[i]) - (ord(first_decoded_character) << 8)) = second_decoded_character
-
+## Subtracting the integer value of decoded character we get the second character. we are jsut reversing the operation. Refer to decoding explanation of Step 2 of decoding for details.
 ```
 
 9. Now we just have to iterate through the loop of the function. Once we put the above code snippet into a loop and we run the function we get the flag.   
