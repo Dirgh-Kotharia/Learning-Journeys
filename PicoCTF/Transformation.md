@@ -41,7 +41,7 @@ Example text = "pi"
 Step 1 : "p" undergoes ord("p") << 8. 
 Explaination : 
 we do ord("p") which gives us integer value of p = 112 in decimal 
-112 in binary is 1110000 and after "<< 8" operation we get 111000000000000 which is 28672 in decimal
+112 in binary is '0111 0000' and after "<< 8" operation we get '0111 0000 0000 0000' which is 28672 in decimal
 so the value assigned to first_character variable is 28672
 
 Step 2 : "i" undergoes ord("i").
