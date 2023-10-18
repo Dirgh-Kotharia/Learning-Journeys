@@ -83,7 +83,8 @@ Explaination :
 
 now we just loop across the encoded string and combine the results to form a full flag
 
-Note : This only works becasue the flag are usually combination of english characters, numbers and special characters. if any even place character (2nd,4th,6th etc.) whose Unicode value is higher than 255 is included in the original flag then reverse algorithm would not work  
+Note : This only works becasue the flag are usually combination of english characters, numbers and special characters. 
+If any even place character (2nd,4th,6th etc.) whose Unicode value is higher than 255 is included in the original flag then reverse algorithm would not work  
 ```
    
 7. Now that we understand our approach lets try to reverse it. The first character of original string can be obtained by right shifting the first character in the encoded string
