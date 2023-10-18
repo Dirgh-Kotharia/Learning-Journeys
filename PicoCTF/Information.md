@@ -5,7 +5,7 @@ points: 10 points
 ---
 
 ## Write-up
-##### Description :
+##### Concept Coverage :
 This is an introductory Challenge to forensics. this helps us explore the concepts of metadata of a file
 
 ##### Following are the steps for the challenge: 

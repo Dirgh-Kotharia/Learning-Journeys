@@ -4,7 +4,7 @@ tags:
 points: 15 points
 ---
 ## Write-up
-##### Description :
+##### Concept Coverage :
 This challenge is a basic introduction to connectivity tools. This one covers one the common network utility named [netcat](https://www.geeksforgeeks.org/introduction-to-netcat/).
 
 ##### Following are the steps for the challenge: 

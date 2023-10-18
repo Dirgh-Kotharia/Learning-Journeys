@@ -6,7 +6,7 @@ points: 5 points
 
 ## Write-up
 
-##### __Description__ : 
+##### Concept Coverage :
 This was a initial test to perform a sanity check and it is pretty straight forward. We just need to perform a simple task of printing out the content of the challenge file ***flag.txt*** and submit the flag that might be present in it. 
 
 ##### Following are the steps for the challenge: 

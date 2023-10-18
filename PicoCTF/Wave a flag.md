@@ -5,7 +5,7 @@ points: 10 points
 ---
 ## Write-up
 
-##### Description :
+##### Concept Coverage :
 This is a simple challenge involving the permission on a linux file. The challenge provides a linux executable file with no extension and the file does not executable permission set on the file. 
 
 ##### Following are the steps for the challenge: 
