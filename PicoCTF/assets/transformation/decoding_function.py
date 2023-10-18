@@ -1,4 +1,4 @@
-encoded_flag = "灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸彥ㄴㅡて㝽"
+encoded_flag = "<your-encoded-flag-here>"
 	
 
 decoded_string = []
