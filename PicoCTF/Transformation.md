@@ -23,13 +23,10 @@ This challenge introduces us the concept of reverse engineering at a high level.
 ```python
 for i in range(0, len(flag), 2) : ## Loops through the string jumping 2 indexes
 
-	first_character = (ord(flag[i]) << 8) ## Takes the first character from the set and gets its integer value with ord and it does left binary shift by 8 bits
-
-	second_character = ord(flag[i + 1]) ## gets the integer value for second character from the set
-	
-	combined_character = chr(first_character + second_character) ## adds the integer value of first (after binary shift) and second character and converts it to a corresponding character in Unicode
-
-	encoded_message.append(combined_character) ## adds the newly geenrated character to a list
+	first_character = (ord(flag[i]) << 8) ## gets its integer value for first character with ord() and it does left binary shift by 8 bits
+	second_character = ord(flag[i + 1]) ## gets the integer value for second character from the set with ord()
+	combined_character = chr(first_character + second_character) ## get the new encoded character with help of chr()
+	encoded_message.append(combined_character) ## adds the newly geenrated encoded character to a list
 	
 print(''.join(encoded_message)) ## prints out the final string by combining all the generated string
 ``` 
