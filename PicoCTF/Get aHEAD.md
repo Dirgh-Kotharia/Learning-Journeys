@@ -1,0 +1,43 @@
+---
+tags:
+  - web-exploitation
+points: 20 points
+---
+## Write-up
+##### Concept Coverage :
+This Challenge covers the introduction to [HTTP methods](https://www.w3schools.com/tags/ref_httpmethods.asp) and basics of web exploitation using proxy interceptor. I am using [Burp Suite](https://en.wikipedia.org/wiki/Burp_Suite) on this one but you can other web request interceptor
+##### Following are the steps for the challenge: 
+1. we are provided with the URL for the website we are planning to exploit for the flag
+   
+2. I am using browser provided within Burp Suite
+    
+    ![burp-browser](assets/get-ahead/burp-browser.png)
+    
+3. I opened the URL with the browser opened and I see following website
+    
+    ![flag-site](assets/get-ahead/flag-site.png)
+
+4. upon Clicking on the buttons on website and then going back to burp and taking a look at request made we notice that for Red we are making a GET request (1st image) and for Blue we are doing POST request (2nd Image)
+    
+    ![red-page](assets/get-ahead/red.png) 
+    ![blue-page](assets/get-ahead/blue.png)
+    
+5. Now looking different HTTP methods we notice that there is a GET and a HEAD method. In the challenge the name is a hint for us to try to intercept a get request and update it to POST method. so first lets turn the intercept on in burp
+	 
+	 ![intercept-on](assets/get-ahead/intercept-on.png)
+	 
+6. Once you turn on the intercept, go back to burp web browser and click on "Choose Red" button since we now know that red is for the GET request. You will notice that instead of getting web page the browser is stuck in a spinning state. that is because we are intercepting the request that going out in burp suite. 
+    
+    ![constant-loading](assets/get-ahead/constant-loading.png)
+
+7. So, if you go back to Burp you will see the request similar to the image below in the interceptor 
+    
+    ![intercepted-get](assets/get-ahead/intercepted-get.png)
+    
+8. In the request lets update the request to POST and click on Forward to send the request to the server. 
+    
+    ![updated-head-request](assets/get-ahead/updated-head-request.png)
+    
+9. To look at the response, head to the HTTP history tab and open the last sent request . Here we notice that we have the flag in the response header
+    
+    ![new-response](assets/get-ahead/new-response.png)
