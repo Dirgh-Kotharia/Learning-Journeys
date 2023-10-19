@@ -22,7 +22,7 @@ This Challenge covers the introduction to [HTTP methods](https://www.w3schools.c
     ![red-page](assets/get-ahead/red.png) 
     ![blue-page](assets/get-ahead/blue.png)
     
-5. Now looking different HTTP methods we notice that there is a GET and a HEAD method. In the challenge the name is a hint for us to try to intercept a get request and update it to POST method. so first lets turn the intercept on in burp
+5. Now looking different HTTP methods we notice that there is a GET and a HEAD method. In the challenge the name is a hint for us to try to intercept a GET request and update it to HEAD method. so first lets turn the intercept on in burp
 	 
 	 ![intercept-on](assets/get-ahead/intercept-on.png)
 	 
@@ -34,7 +34,7 @@ This Challenge covers the introduction to [HTTP methods](https://www.w3schools.c
     
     ![intercepted-get](assets/get-ahead/intercepted-get.png)
     
-8. In the request lets update the request to POST and click on Forward to send the request to the server. 
+8. In the request lets update the request to HEAD and click on Forward to send the request to the server. 
     
     ![updated-head-request](assets/get-ahead/updated-head-request.png)
     
