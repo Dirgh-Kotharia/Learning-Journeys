@@ -10,7 +10,7 @@ This challenge introduces us the concept of reverse engineering at a high level.
 ##### Following are the steps for the challenge: 
 1. Download the file with the encoded text (at time of writing file is called "enc" but it might change). Upon displaying the contents of the file looks like either Chinese/Japanese characters
    
-   ![enc-output](assets/transformation/enc-output.png)
+   ![enc-output](../assets/transformation/enc-output.png)
    
 2. We are also provided the below mentioned snippet of code in the challenge text. From the functions ([join](https://www.geeksforgeeks.org/python-string-join-method/),[chr](https://www.geeksforgeeks.org/chr-in-python/),[ord](https://www.geeksforgeeks.org/ord-function-python/)) and the [list comprehension](https://www.geeksforgeeks.org/python-list-comprehension/) seems like a python code. It also looks like it covers [bit shifting](https://www.interviewcake.com/concept/java/bit-shift)
    
@@ -108,7 +108,7 @@ decoded_string.append(second_decoded_character)
 
 9. Now we just have to iterate through the loop of the function. Once we put the above code snippet into a loop and we run the function we get the flag.   
    
-10. Full functional code can be found here : [decoding_function.py](assets/transformation/decoding_function.py) .
+10. Full functional code can be found here : [decoding_function.py](../assets/transformation/decoding_function.py) .
 
 ### Alternative method : 
 

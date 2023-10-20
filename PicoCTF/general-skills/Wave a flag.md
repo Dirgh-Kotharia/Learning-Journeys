@@ -13,7 +13,7 @@ This is a simple challenge involving the permission on a linux file. The challen
     If you are using webshell provided by picoCTF you can leverage [wget](https://www.geeksforgeeks.org/wget-command-in-linux-unix) command. 
     Link to the file can be copied from the website by right-clicking on the link and clicking on "copy clean link"
     
-    ![clean-link](assets/Wave-a-flag/clean-link.png)
+    ![clean-link](../assets/Wave-a-flag/clean-link.png)
 
 ``` bash
 wget <link-to-the-file>
@@ -25,7 +25,7 @@ wget <link-to-the-file>
 file <name-of-downloaded-file>
 ```
    
-   ![file-output](assets/Wave-a-flag/file-output.png)
+   ![file-output](../assets/Wave-a-flag/file-output.png)
 
 3. Although file is a linux binary executable it is missing the execute permission on the file. we can make that file executable by use of [chmod](https://www.geeksforgeeks.org/chmod-command-linux/) and adding execute permission for our user. 
    
@@ -41,11 +41,11 @@ chmod u+x <name-of-file>
 
 5. Upon running we get following output : 
    
-   ![file-run](assets/Wave-a-flag/file-run.png)
+   ![file-run](../assets/Wave-a-flag/file-run.png)
 
 6. as suggested by the output. once we run it with the -h flag . it gives us the flag 
    
-   ![file-run-final](assets/Wave-a-flag/file-run-final.png)
+   ![file-run-final](../assets/Wave-a-flag/file-run-final.png)
 
 ### Alternative method
 1. Once you have the file downloaded you can also leverage [strings](https://www.javatpoint.com/linux-strings-command) and [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux) to extract the flag from the file. 
@@ -56,5 +56,5 @@ strings <name-of-the-file> | grep "picoCTF"
 
 output : 
 
-![file-strings](assets/Wave-a-flag/file-strings.png)
+![file-strings](../assets/Wave-a-flag/file-strings.png)
 
