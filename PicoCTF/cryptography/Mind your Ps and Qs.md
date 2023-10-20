@@ -21,6 +21,6 @@ This challenge is an introduction to asymmetric cryptography. It covers basic [R
     
     ![decoded-flag](../assets/mind-your-pq/decoded-flag.png)
 
-4. If you are looking to do it manually you can try to factor the n using one of the online factorizer since it is a big number. you can use [factordb](http://factordb.com) for a quick result . This help you will be able to find the prime numbers used for this (p and q) . Now that you have p,q,n and e you can easily compute the decrypt exponent d and decrypt the message. Please refer back to [original RSA methodology](https://www.techtarget.com/searchsecurity/definition/RSA) to see decryption math
+4. If you are looking to do it manually you can try to factor the n using one of the online factorizer since it is a big number. you can use [factordb](http://factordb.com) for a quick result . With this you will be able to find the prime numbers used for this (p and q) . Now that you have p,q,n and e you can easily compute the decrypt exponent d and decrypt the message. Please refer back to [original RSA methodology](https://www.techtarget.com/searchsecurity/definition/RSA) to see decryption math
    
 	![factor-db](../assets/mind-your-pq/factor-db.png)
