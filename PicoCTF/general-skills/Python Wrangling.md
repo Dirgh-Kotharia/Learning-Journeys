@@ -3,6 +3,8 @@ tags:
   - general-skills
 points: 10 points
 ---
+# Python Wrangling
+
 ## Write-up
 ##### Concept Coverage :
 This challenge is an introduction to the Python . it also covers the basics of [Fernet](https://cryptography.io/en/latest/fernet/) encryption. The flag file contains the encrypted file and we are provided the python file using Fernet encryption and decryption method present within. We are also provided a password file which was used as an encryption key
