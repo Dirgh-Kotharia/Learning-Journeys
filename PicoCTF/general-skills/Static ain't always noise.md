@@ -3,6 +3,8 @@ tags:
   - general-skills
 points: 20 points
 ---
+# Static ain't always noise
+
 ## Write-up
 ##### Concept Coverage :
 This challenge is a rather simple one. It covers basics of object dump 

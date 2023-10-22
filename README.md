@@ -2,7 +2,7 @@
 These to track my journey of learning concepts of internet, linux and CTF with the help of some online resources. 
 
 ### Write-up Philosophy
-I am strong beliver of **"learning by doing"** philosophy. 
+I am strong believer of **"learning by doing"** philosophy. 
 
 The format that I will be following in my writeup will a guidance focused rather than solution driven so, I will not have answer present in the writeup but rather will have some step-by-step method that I used to reach to solution.
 

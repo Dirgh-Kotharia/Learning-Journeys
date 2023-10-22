@@ -3,6 +3,8 @@ tags:
   - cryptography
 points: 10 points
 ---
+# Mod 26
+
 ## Write-up
 ##### Concept Coverage :
 This challenge is an introduction to cryptography. It covers one of the simpler algorithms called [ROT13](https://en.wikipedia.org/wiki/ROT13) . 
