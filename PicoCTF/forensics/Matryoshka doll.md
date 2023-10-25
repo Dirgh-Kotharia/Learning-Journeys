@@ -19,11 +19,11 @@ This challenge explores the concept of embedded files and few methods to identif
     
     ![binwalk-output](../assets/matryoshka-doll/binwalk-output.png)
     
-5. Since it is a zip archive we can use `unzip` to extract the archive. Upon unzipping we get a folder called `basee_images`. it contains another image named `2_c.jpg`
+5. Since it is a zip archive we can use `unzip` to extract the archive. Upon unzipping we get a folder called `base_images`. it contains another image named `2_c.jpg`
     
     ![unzip-output](../assets/matryoshka-doll/unzip-output.png)
     
-6. The new image `2_c.jpg` is similar to initial `dolls.jpg` image . This is the concept of original [Matryoshka dolls](https://en.wikipedia.org/wiki/Matryoshka_doll) which is dolls containing smaller doll within due to which they are also called "Nesting dolls". so if we try to keep unzipping we get all the way to `4_c.jpg`. and upon unzipping `4_c.jpg` we find a `falg.txt` file
+6. The new image `2_c.jpg` is similar to initial `dolls.jpg` image . This is the concept of original [Matryoshka dolls](https://en.wikipedia.org/wiki/Matryoshka_doll) which is dolls containing smaller doll within due to which they are also called "Nesting dolls". so if we try to keep unzipping we get all the way to `4_c.jpg`. and upon unzipping `4_c.jpg` we find a `flag.txt` file
     
     ![unzip-chain](../assets/matryoshka-doll/unzip-chain.png)
     
