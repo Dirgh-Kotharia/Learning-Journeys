@@ -3,6 +3,9 @@ tags:
   - forensics
 points: 40 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # tunn3l v1s10n
 
 ## Write-up

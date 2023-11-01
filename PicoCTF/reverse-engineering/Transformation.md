@@ -3,6 +3,9 @@ tags:
   - reverse-engineering
 points: 20 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Transformation
 
 ## Write-up

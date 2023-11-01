@@ -3,6 +3,9 @@ tags:
   - general-skills
 points: 5 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Obsidian Cat
 ## Write-up
 

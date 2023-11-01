@@ -3,6 +3,9 @@ tags:
   - general-skills
 points: 10 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Python Wrangling
 
 ## Write-up

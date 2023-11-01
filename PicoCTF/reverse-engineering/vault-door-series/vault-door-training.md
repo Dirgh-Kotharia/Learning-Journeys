@@ -3,6 +3,9 @@ tags:
   - reverse-engineering
 points: 50 points
 ---
+
+[<-- Vault Door Series Playlist](./vault-door-series.md)
+
 # Vault-Room-Training
 
 ## Write-up

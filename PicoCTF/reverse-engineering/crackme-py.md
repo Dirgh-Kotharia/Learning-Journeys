@@ -3,6 +3,9 @@ tags:
   - reverse-engineering
 points: 30 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # crackme-py
 
 ## Write-up
