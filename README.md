@@ -65,6 +65,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 |--------|------|
 |[GET aHEAD](./PicoCTF/web-exploitation/Get%20aHEAD.md)|20|
 |[Cookies](./PicoCTF/web-exploitation/Cookies.md)|40|
+|[Insp3ct0r](./PicoCTF/web-exploitation/Insp3ct0r.md)|50|
 
 </details>
 
