@@ -3,6 +3,9 @@ tags:
   - forensics
 points: 10 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Information
 
 ## Write-up

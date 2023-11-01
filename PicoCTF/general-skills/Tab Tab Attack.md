@@ -3,6 +3,9 @@ tags:
   - general-skills
 points: 20 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Tab Tab Attack
 
 ## Write-up

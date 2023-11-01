@@ -3,6 +3,9 @@ tags:
   - cryptography
 points: 20 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Mind your Ps and Qs
 
 ## Write-up

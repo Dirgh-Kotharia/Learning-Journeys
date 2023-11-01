@@ -3,6 +3,9 @@ tags:
   - general-skills
 points: 30 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Magikarp Ground Mission
 
 ## Write-up

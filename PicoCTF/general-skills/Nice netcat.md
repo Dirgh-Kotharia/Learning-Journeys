@@ -3,6 +3,9 @@ tags:
   - general-skills
 points: 15 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Nice netcat
 
 ## Write-up

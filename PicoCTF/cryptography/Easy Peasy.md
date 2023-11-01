@@ -3,6 +3,9 @@ tags:
   - cryptography
 points: 40 points
 ---
+
+[<-- PicoCTF Category Table](../../README.md#2-picoctf)
+
 # Easy Peasy
 
 ## Write-up
