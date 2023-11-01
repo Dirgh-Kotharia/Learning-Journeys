@@ -17,7 +17,7 @@ OverTheWire community can help you to learn and practice security concepts in th
 
 <details>
 
-<summary>Bandit</summary>
+<summary>Bandit (Coming Soon)</summary>
 
 </details>
 
