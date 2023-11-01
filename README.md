@@ -9,7 +9,7 @@ The format that I will be following in my writeup will a guidance focused rather
 # Resources
 These are some online resources that are helping me thoughout my journey of getting use to CTFs. This list will improve as I move forward on my journey:
 
-## 1. [Over the wire](https://overthewire.org/wargames/)  
+## 1. Over the wire 
 
 OverTheWire community can help you to learn and practice security concepts in the form of fun-filled games called wargames. It has various categories of wargames covering basic linux to some deep concepts of security.
 
@@ -17,12 +17,12 @@ OverTheWire community can help you to learn and practice security concepts in th
 
 |Wargame|Link to Challenge|Link to writeups|
 |-------|-----------------|----------------|
-|Bandit|Comming Soon|[Original Challenges](https://overthewire.org/wargames/bandit/)|
+|Bandit|Coming Soon|[Original Challenges](https://overthewire.org/wargames/bandit/)|
 
 
-## 2. [PicoCTF](https://www.picoctf.org/) 
+## 2. PicoCTF
 
-Capture-the-flag puzzles created by trusted computer security and privacy experts at Carnegie Mellon University.
+Capture-the-flag puzzles created by trusted computer security and privacy experts at Carnegie Mellon University.Those challenges are part of PicoGym
 
 ### Write-ups by categories : 
 
