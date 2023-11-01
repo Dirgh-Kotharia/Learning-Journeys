@@ -29,7 +29,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 ### Write-ups by categories : 
 
 <details>
-
+<br>
 <summary>General Skills</summary>
 
 |Question|Points|
@@ -45,7 +45,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 </details>
 
 <details>
-
+<br>
 <summary>Cryptography</summary>
 
 |Question|Points|
@@ -58,7 +58,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 </details>
 
 <details>
-
+<br>
 <summary>Web Exploitation</summary>
 
 |Question|Points|
@@ -69,7 +69,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 </details>
 
 <details>
-
+<br>
 <summary>Forensics</summary>
 
 |Question|Points|
@@ -81,7 +81,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 </details>
 
 <details>
-
+<br>
 <summary>Reverse Engineering</summary>
 
 |Question|Points|
@@ -95,7 +95,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 </details>
 
 <details>
-
+<br>
 <summary>Binary Exploitation</summary>
 
 |Question|Points|
