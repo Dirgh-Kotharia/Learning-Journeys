@@ -90,7 +90,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 |[keygenme-py](./PicoCTF/reverse-engineering/keygenme-py.md)|30|
 |[crackme-py](./PicoCTF/reverse-engineering/crackme-py.md)|30|
 |[ARMssembly 0](./PicoCTF/reverse-engineering/ARMssembly%200.md)|50|
-|[Vault Door Series (Playlist)](./PicoCTF/reverse-engineering/vault-door-series/)|--|
+|[Vault Door Series (Playlist)](./PicoCTF/reverse-engineering/vault-door-series/vault-door-series.md)|--|
 
 </details>
 
