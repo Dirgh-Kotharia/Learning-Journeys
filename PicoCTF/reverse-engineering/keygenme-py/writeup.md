@@ -4,7 +4,7 @@ tags:
 points: 30 points
 ---
 
-[<-- Reverse Engineering Skills Write-ups](../writeup-list.md)
+[<-- Reverse Engineering Write-ups](../writeup-list.md)
 
 # Keygenme-py
 

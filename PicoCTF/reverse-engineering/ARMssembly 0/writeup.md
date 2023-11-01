@@ -4,7 +4,7 @@ tags:
 points: 40 points
 ---
 
-[<-- Reverse Engineering Skills Write-ups](../writeup-list.md)
+[<-- Reverse Engineering Write-ups](../writeup-list.md)
 
 # ARMssembly 0
 

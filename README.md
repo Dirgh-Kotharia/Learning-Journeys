@@ -17,7 +17,7 @@ OverTheWire community can help you to learn and practice security concepts in th
 
 |Wargame|Link to Challenge|Link to writeups|
 |-------|-----------------|----------------|
-|Bandit|[Original Challenges](https://overthewire.org/wargames/bandit/)|Comming Soon|
+|Bandit|Comming Soon|[Original Challenges](https://overthewire.org/wargames/bandit/)|
 
 
 ## 2. [PicoCTF](https://www.picoctf.org/) 
@@ -26,11 +26,11 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 
 ### Write-ups by categories : 
 
-| Category | Link to Challenges | Link to writeup |
-|----------|--------------------|-----------------|
-|General Skills|[Original Challenges](https://play.picoctf.org/practice?category=5&page=1)|[General Skills Write-ups](./PicoCTF/general-skills/writeup-list.md)|
-|Cryptography|[Original Challenges](https://play.picoctf.org/practice?category=2&page=1)|[Cryptography Write-ups](./PicoCTF/cryptography/writeup-list.md)|
-|Forensics|[Original Challenges](https://play.picoctf.org/practice?category=4&page=1)|[Forensics Write-ups](./PicoCTF/forensics/writeup-list.md)|
-|Web Exploitation|[Original Challenges](https://play.picoctf.org/practice?category=1&page=1)|[Web Exploitation Write-ups](./PicoCTF/web-exploitation/writeup-list.md)|
-|Binary Exploitation|[Original Challenges](https://play.picoctf.org/practice?category=6&page=1)|[Binary Exploitation Write-ups](./PicoCTF/binary-exploitation/writeup-list.md)|
-|Reverse Engineering|[Original Challenges](https://play.picoctf.org/practice?category=3&page=1)|[Reverse Engineering Write-ups](./PicoCTF/reverse-engineering/writeup-list.md)|
+| Category | Link to Writeup | Link to Original challenge |
+|----------|--------------------|-------------------------|
+|General Skills|[General Skills Write-ups](./PicoCTF/general-skills/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=5&page=1)|
+|Cryptography|[Cryptography Write-ups](./PicoCTF/cryptography/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=2&page=1)|
+|Forensics|[Forensics Write-ups](./PicoCTF/forensics/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=4&page=1)|
+|Web Exploitation|[Web Exploitation Write-ups](./PicoCTF/web-exploitation/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=1&page=1)|
+|Binary Exploitation|[Binary Exploitation Write-ups](./PicoCTF/binary-exploitation/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=6&page=1)|
+|Reverse Engineering|[Reverse Engineering Write-ups](./PicoCTF/reverse-engineering/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=3&page=1)|
