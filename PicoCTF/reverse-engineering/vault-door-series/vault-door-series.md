@@ -1,4 +1,4 @@
-[<-- PicoCTF](../../../README.md#2-picoctf)
+[<-- PicoCTF Category Table](../../../README.md#2-picoctf)
 
 # Vault Door Series (Playlist)
 
