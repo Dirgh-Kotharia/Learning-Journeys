@@ -11,3 +11,4 @@
 |[Static ain't always noise](./Static%20ain't%20always%20noise/writeup.md)|20|
 |[Tab, Tab, Attack](./Tab%20Tab%20Attack/writeup.md)|20|
 |[Magikarp Ground Mission](./Magikarp%20Ground%20Mission/writeup.md)|30|
+|[Lets Warm Up](./Lets%20Warm%20Up/writeup.md)|50|
