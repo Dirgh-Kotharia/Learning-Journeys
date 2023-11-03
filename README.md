@@ -15,8 +15,8 @@ OverTheWire community can help you to learn and practice security concepts in th
 
 ### Series : 
 
-|Wargame|Link to Challenge|Link to writeups|
-|-------|-----------------|----------------|
+|Wargame name|Link to writeups|Link to Challenge|
+|------------|----------------|-----------------|
 |Bandit|Coming Soon|[Original Challenges](https://overthewire.org/wargames/bandit/)|
 
 
@@ -26,7 +26,7 @@ Capture-the-flag puzzles created by trusted computer security and privacy expert
 
 ### Write-ups by categories : 
 
-| Category | Link to Writeup | Link to Original challenge |
+| Category | Link to Writeups | Link to Original Challenges |
 |----------|--------------------|-------------------------|
 |General Skills|[General Skills Write-ups](./PicoCTF/general-skills/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=5&page=1)|
 |Cryptography|[Cryptography Write-ups](./PicoCTF/cryptography/writeup-list.md)|[Original Challenges](https://play.picoctf.org/practice?category=2&page=1)|
