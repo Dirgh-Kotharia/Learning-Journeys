@@ -21,4 +21,12 @@ This was a introduction to convert hex to ASCII
  echo -e '\x70'
 ```
 
- 3. You can replace `70` with a different hex value as asked by your challenge .
+```bash 
+python -c 'print(chr(int("70", 16)))'
+```
+
+3. You can also use online tool like [rapidtables](https://www.rapidtables.com/convert/number/hex-to-decimal.html) for quick solve.
+    
+    ![rapid-tables](./assets/rapid-tables.png)
+   
+4. You can replace `70` with a different hex value as asked by your challenge  and you just need to wrap the response with `picoCTF{}` and submit the flag.
