@@ -12,4 +12,5 @@
 |[Tab, Tab, Attack](./Tab%20Tab%20Attack/writeup.md)|20|
 |[Magikarp Ground Mission](./Magikarp%20Ground%20Mission/writeup.md)|30|
 |[Lets Warm Up](./Lets%20Warm%20Up/writeup.md)|50|
-|[Warmed Up](./Warmed%20Up/writeup.md)|50
+|[Warmed Up](./Warmed%20Up/writeup.md)|50|
+|[2Warm](./2Warm/writeup.md)|50|
