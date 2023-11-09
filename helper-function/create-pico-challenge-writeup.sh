@@ -2,7 +2,7 @@
 
 usage()
 {
-	echo "usage: ./create-pico-challenge-writeup.sh -c (be|crypt|foren|gs|re|we) -n challenge_name -p challenge_points"
+	echo "usage: ./create-pico-challenge-writeup.sh -c (be|crypt|foren|gs|re|we) -n \"challenge_name\" -p challenge_points"
 
 }
 
