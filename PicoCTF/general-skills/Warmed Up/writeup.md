@@ -17,13 +17,13 @@ This was a introduction to convert hex to Decimal
    
 2. We can use the below bash code to get the output. 
    
-```bash
-echo "ibase=16;3D" | bc
-```
+    ```bash
+    echo "ibase=16;3D" | bc
+    ```
 
-```bash
-python -c 'print(0x3D)'
-```
+    ```bash
+    python -c 'print(0x3D)'
+    ```
 
 3. You can also use online tool like [rapidtables](https://www.rapidtables.com/convert/number/hex-to-decimal.html) for quick solve 
     

@@ -17,13 +17,13 @@ This was a introduction to convert Decimal to Binary
    
 2. We can use the below bash code to get the output. 
    
-```bash
-echo "obase=2;42" | bc
-```
+    ```bash
+    echo "obase=2;42" | bc
+    ```
 
-```bash
-python -c 'print(bin(42))'
-```
+    ```bash
+    python -c 'print(bin(42))'
+    ```
 
 3. You can also use online tool like [rapidtables](https://www.rapidtables.com/convert/number/decimal-to-binary.html) for quick solve. 
     

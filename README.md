@@ -22,7 +22,7 @@ OverTheWire community can help you to learn and practice security concepts in th
 
 ## 2. PicoCTF
 
-Capture-the-flag puzzles created by trusted computer security and privacy experts at Carnegie Mellon University.Those challenges are part of PicoGym
+Capture-the-flag puzzles created by trusted computer security and privacy experts at Carnegie Mellon University. Those challenges are part of PicoGym
 
 ### Write-ups by categories : 
 

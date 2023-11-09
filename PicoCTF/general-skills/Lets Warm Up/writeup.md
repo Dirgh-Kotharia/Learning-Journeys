@@ -17,13 +17,13 @@ This was a introduction to convert hex to ASCII
    
 2. We can use the below bash code to get the output
    
-```bash
- echo -e '\x70'
-```
+    ```bash
+    echo -e '\x70'
+    ```
 
-```bash 
-python -c 'print(chr(int("70", 16)))'
-```
+    ```bash 
+    python -c 'print(chr(int("70", 16)))'
+    ```
 
 3. You can also use online tool like [rapidtables](https://www.rapidtables.com/convert/number/hex-to-decimal.html) for quick solve.
     

@@ -30,9 +30,9 @@ This challenge is an introduction to [ARM Assembly code](https://developer.arm.c
     ![print](./assets//print.png)
     
 5. Now that we know that the output value is `4134207980` in order to get the flag as mentioned in the challenge description we need to get the hex value of it without `0x` in the beginning and 32 bits. we can get that simply using the below python command directly from bash.
-```bash
-python3 -c 'print("{:x}".format(4134207980))'
-```
+    ```bash
+    python3 -c 'print("{:x}".format(4134207980))'
+    ```
 
 6. Upon running the above command we get the hex value of it . we just need to wrap it with `picoCTF{}` and we can submit the flag .
     

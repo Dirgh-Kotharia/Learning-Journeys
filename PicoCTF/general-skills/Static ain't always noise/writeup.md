@@ -25,9 +25,9 @@ This challenge is a rather simple one. It covers basics of object dump
 
 3. In order to run the script you need to make the script executable it can be done by following command
    
-```bash
-chmod u+x <name-of-bash-script>
-```
+    ```bash
+    chmod u+x <name-of-bash-script>
+    ```
 
 4. Now we can run the script using the below command and then we can pass the binary file as an argument . this will generate the final stings file.
     
@@ -37,9 +37,9 @@ chmod u+x <name-of-bash-script>
     
     ![flag-original](./assets/flag-original.png)
     
-```bash
-cat <name-of-strings-output-file> | grep "picoCTF"
-```
+    ```bash
+    cat <name-of-strings-output-file> | grep "picoCTF"
+    ```
 
 
 ## Alternative Methods :

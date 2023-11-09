@@ -20,29 +20,29 @@ This is a simple challenge involving the permission on a linux file. The challen
     
     ![clean-link](./assets/clean-link.png)
 
-``` bash
-wget <link-to-the-file>
-```
+    ``` bash
+    wget <link-to-the-file>
+    ```
 
 2. once you have file downloaded and navigate to the file. Since it doesn't have a extension we can use [file](https://www.geeksforgeeks.org/file-command-in-linux-with-examples/) function in linux to determine the type of file. The output shows that it is a linux executable binary file
    
-``` bash
-file <name-of-downloaded-file>
-```
+    ``` bash
+    file <name-of-downloaded-file>
+    ```
    
    ![file-output](./assets/file-output.png)
 
 3. Although file is a linux binary executable it is missing the execute permission on the file. we can make that file executable by use of [chmod](https://www.geeksforgeeks.org/chmod-command-linux/) and adding execute permission for our user. 
-   
-``` bash
-chmod u+x <name-of-file>
-```
+    
+    ``` bash
+    chmod u+x <name-of-file>
+    ```
 
 4. once you have added the permission you can run the linux binary in terminal
    
-``` bash
-./<name-of-file>
-```
+    ``` bash
+    ./<name-of-file>
+    ```
 
 5. Upon running we get following output : 
    
@@ -55,11 +55,10 @@ chmod u+x <name-of-file>
 ### Alternative method
 1. Once you have the file downloaded you can also leverage [strings](https://www.javatpoint.com/linux-strings-command) and [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux) to extract the flag from the file. 
    
-```bash
-strings <name-of-the-file> | grep "picoCTF"
-```
+    ```bash
+    strings <name-of-the-file> | grep "picoCTF"
+    ```
 
-output : 
-
-![file-strings](./assets/file-strings.png)
-
+    Output : 
+        
+    ![file-strings](./assets/file-strings.png)

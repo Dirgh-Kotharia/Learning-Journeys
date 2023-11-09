@@ -18,9 +18,9 @@ This covers basic concept of compression method namely [`zip`](https://en.wikipe
     
     ![unzip-output](./assets/unzip-output.png)
     
-```bash
-unzip <name-of-zip-file>
-```
+    ```bash
+    unzip <name-of-zip-file>
+    ```
 
 3. We also notice that we see a file at at the end of zip extraction . Upon navigating to that directory we see it is a linux binary file and it has execute permissions
     
@@ -30,9 +30,9 @@ unzip <name-of-zip-file>
     
     ![flag-output](./assets/flag-output.png)
     
-```bash
-./<name-of-the-file>
-```
+    ```bash
+    ./<name-of-the-file>
+    ```
 
 5. Alternatively, you can also use `strings` command to extract flag from the binary as well  if you are not willing to run the binary 
     
