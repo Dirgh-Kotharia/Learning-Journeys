@@ -24,15 +24,17 @@ This challenge is an introduction to the Python . it also covers the basics of [
 	   ![decryption-function](./assets/python-wrangler(2).png)
 
 3. Upon running the Python Script without argument we get the help text on how to use the script :
-```bash
-python3 <name-of-python-script>.py 
-```
 
-![help-output](./assets/help-function.png) 
+	```bash
+	python3 <name-of-python-script>.py 
+	```
+
+	![help-output](./assets/help-function.png) 
 
 4. Upon reading the help text and the decryption function we can understand that we can run python script with -d flag to decrypt an encrypted text which can be passed as an argument after the -d flag
-```bash 
-python3 <python-script>.py -d <encrypted-flag-file>
-```
+
+	```bash 
+	python3 <python-script>.py -d <encrypted-flag-file>
+	```
 
 5. Upon running it will ask for password which can be found in the password file provided with the challenge. Upon entering password, it will print out the decrypted flag on the terminal.

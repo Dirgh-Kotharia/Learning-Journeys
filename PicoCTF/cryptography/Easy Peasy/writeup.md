@@ -40,9 +40,9 @@ This challenge is explores the concept of XOR and [One-Time Pad](https://en.wiki
     
 8. lets use the following command to put the plan into action (netcat details might change later):
    
-```bash
-python3 -c 'print("a"*49968);print("\x00"*32)' | nc mercury.picoctf.net 58913
-```
+    ```bash
+    python3 -c 'print("a"*49968);print("\x00"*32)' | nc mercury.picoctf.net 58913
+    ```
 
 9. Upon running we get the following output. we dont need the anything else except for last part: 
     

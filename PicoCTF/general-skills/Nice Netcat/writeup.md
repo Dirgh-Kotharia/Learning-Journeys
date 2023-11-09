@@ -14,10 +14,10 @@ This challenge is a basic introduction to connectivity tools. This one covers on
 
 ##### Following are the steps for the challenge: 
 1. Please ensure netcat is installed on your computer . if you are using webshell from picoCTF it has netcat installed. Below is the syntax to connect to open port on a machine.
-   
-```bash
-nc <target-ip-or-fqdn> <target-port>
-```
+    
+    ```bash
+    nc <target-ip-or-fqdn> <target-port>
+    ```
 
 2. You are provided the connectivity command in the challenge description . once you run the command it connects you to the machine which returns a bunch of numbers and then closes the connection similar to snapshot below
    
@@ -28,11 +28,11 @@ nc <target-ip-or-fqdn> <target-port>
    Note: the URL for netcat and output numbers might vary
    ![netcat-tr](./assets/netcat-tr.png)
    
-```bash
-nc <target-ip-or-fqdn> <target-port> | tr '\n' ' '
-```
+    ```bash
+    nc <target-ip-or-fqdn> <target-port> | tr '\n' ' '
+    ```
 
- 4. Looks like ASCII characters are in their decimal values so I utilized online [converter tool](https://onlinetools.com/ascii/convert-decimal-to-ascii) but you can utilize any other online tool as well to convert the decimal to ASCII. Upon inputting the output we get the flag
+4. Looks like ASCII characters are in their decimal values so I utilized online [converter tool](https://onlinetools.com/ascii/convert-decimal-to-ascii) but you can utilize any other online tool as well to convert the decimal to ASCII. Upon inputting the output we get the flag
 
     ![decimal-to-ascii](./assets/decimal-to-ascii.png)
 

@@ -22,16 +22,16 @@ This covers using hex-editor to read the text added to the file
     
     ![exiftool-output](./assets/exiftool-output.png)
    
-```bash
-exiftool <image-file-name>
-```
+    ```bash
+    exiftool <image-file-name>
+    ```
   
 4. As a next step, I tried to check if there were any strings present in the file. i used the `strings` command and piped it to `grep` command to find the flag and the out had the flag in it. so it would mean that the flag was added to file as it was an image file. I am guessing since `strings` gave out the flag we could have also found the flag by opening it in hexeditor and reading through the file 
     
     ![flag](./assets/flag.png)
    
-```bash
-strings <image-file> | grep "pico"
-```
+    ```bash
+    strings <image-file> | grep "pico"
+    ```
 
   

@@ -13,8 +13,11 @@ points: 30 points
 This challenge explores the concept of embedded files and few methods to identify them
 ##### Following are the steps for the challenge: 
 1. Download the file provided with the challenge. In my case it was `dolls.jpg`.
+
 2. First thing we try to open the Image and try to see if we get anything to work with.
+
 3. I didn't find anything out of the ordinary with the image so as a next step I tried to look at the metadata. I used `exiftool` for it. In the metadata I found a warning saying there might be extra bytes in the files. I limited the output in the image below to represent relevant data in single screenshot using `tail` .
+
     
     ![exiftool-output](./assets/exiftool-output.png)
     
