@@ -9,6 +9,7 @@
 |[crackme-py](./crackme-py/writeup.md)|30|
 |[ARMssembly 0](./ARMssembly%200/writeup.md)|50|
 |[Speeds and Feeds](./speeds%20and%20feeds/writeup.md)|50|
+|[Shop](./Shop/writeup.md)|50|
 
 
 ## Playlists
