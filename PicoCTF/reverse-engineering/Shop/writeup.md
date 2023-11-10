@@ -10,7 +10,7 @@ points: 50 points
 ## Write-up
 
 ##### Concept Coverage :
-This challenge is 
+This challenge is cocenpts of input validation and how a code can be misused if not present
 
 ##### Following are the steps for the challenge: 
 1. we are given a `netcat` connection which hosts a `shop` program. 
