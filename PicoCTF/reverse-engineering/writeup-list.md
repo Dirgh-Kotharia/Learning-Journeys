@@ -10,6 +10,7 @@
 |[ARMssembly 0](./ARMssembly%200/writeup.md)|50|
 |[Speeds and Feeds](./speeds%20and%20feeds/writeup.md)|50|
 |[Shop](./Shop/writeup.md)|50|
+|[ARMssembly 1](./ARMssembly%201/writeup.md)|70|
 
 
 ## Playlists
