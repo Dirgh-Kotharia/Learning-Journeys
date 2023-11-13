@@ -73,17 +73,17 @@ This challenge covers a bit of the reverse engineering as well as understand how
 	
 5. Now that we understand the actual function lets try to reverse it . I wrote the outline of the function on how it would look like. Since we dont know what key was used to encode the flag we need to loop through all possible keys which is the set of characters from `a` to `p` as key has to be part of the `ALPHABET` set as per `assert` statement 1. Then for each key we would have to reverse the shift and then decode the `unshifted_cipher` to get the `flag` and from the flags that we get we can look for the one that might represent our original value so the main function I designed would look like this : 
     
-		```python
-		original_cipher_text = input("Enter cipher text : ")
+	```python
+	original_cipher_text = input("Enter cipher text : ")
 
-		for key in ALPHABET:
+	for key in ALPHABET:
+	
+		unshifted_cipher_text = reverse_shift(original_cipher_text,key)
 		
-			unshifted_cipher_text = reverse_shift(original_cipher_text,key)
-			
-			flag = b16_decode(unshifted_cipher_text)
-			
-			print("\n Decoded string for key",key,":",flag)
-		```
+		flag = b16_decode(unshifted_cipher_text)
+		
+		print("\n Decoded string for key",key,":",flag)
+	```
 	
 6. Now lets dive into the `reverse_shift()` . we need to do the following things in order to reverse the shift
     - First  we know that the original character (the one before it got shifted) was in range of `0` and `15` and key is also in same range. based on that we have 2 conditions.
