@@ -10,3 +10,4 @@
 |[The Numbers](./The%20Numbers/writeup.md)|50|
 |[New Caesar](./New%20Caesar/writeup.md)|60|
 |[Mini RSA](./Mini%20RSA/writeup.md)|70|
+|[Dachshund Attacks](./Dachshund%20Attacks/writeup.md)|80|
