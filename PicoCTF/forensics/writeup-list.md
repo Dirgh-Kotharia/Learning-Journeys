@@ -10,3 +10,4 @@
 |[Glory of the Garden](./Glory%20of%20the%20garden/writeup.md)|50|
 |[Wireshark doo dooo do doo](./Wireshark%20doo%20dooo%20do%20doo/writeup.md)|50|
 |[MacroHard WeakEdge](./MacroHard%20WeakEdge/writeup.md)|60|
+|[Trivial Flag Transfer Protocol](./Trivial%20Flag%20Transfer%20Protocol/writeup.md)|90|
