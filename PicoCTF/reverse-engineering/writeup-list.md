@@ -11,6 +11,7 @@
 |[Speeds and Feeds](./speeds%20and%20feeds/writeup.md)|50|
 |[Shop](./Shop/writeup.md)|50|
 |[ARMssembly 1](./ARMssembly%201/writeup.md)|70|
+|[ARMssembly 2](./ARMssembly%202/writeup.md)|90|
 
 
 ## Playlists
