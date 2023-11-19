@@ -44,4 +44,4 @@ This challenge is the enxtension of the previous challenge named [ARMssembly 1](
 
     ![python-output](./assets/python-output.png)
 
-7. if you notice we get 36 bits output since we have 9 characters in output. we need use 32 bits which will be just last 8 chatacters. and then warp those laast 8 characters in `picoCTF{}` and submit the flag to complete the challenge
+7. if you notice we get 36 bits output since we have 9 characters in output. we need use 32 bits which will be just last 8 chatacters. and then warp those last 8 characters in `picoCTF{}` and submit the flag to complete the challenge
