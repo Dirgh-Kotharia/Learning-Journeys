@@ -27,4 +27,5 @@ This is a Series of challenges designed as playlist with similar concept (In thi
 |Question|Points|
 |--------|------|
 |[Vault Door Training](./vault-door-series/Vault%20Door%20Training/writeup.md)|50|
+|[vault-door-1](./vault-door-series/vault-door-1/writeup.md)|100|
 
