@@ -14,3 +14,4 @@
 |[Lets Warm Up](./Lets%20Warm%20Up/writeup.md)|50|
 |[Warmed Up](./Warmed%20Up/writeup.md)|50|
 |[2Warm](./2Warm/writeup.md)|50|
+|[Whats a netcat](./Whats%20a%20netcat/writeup.md)|100|
