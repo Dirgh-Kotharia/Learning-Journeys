@@ -15,3 +15,4 @@
 |[Easy1](./Easy1/writeup.md)|100|
 |[13](./13/writeup.md)|100|
 |[caesar](./caesar/writeup.md)|100|
+|[Pixelated](./Pixelated/writeup.md)|100|
