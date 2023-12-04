@@ -69,6 +69,7 @@ This challenge covers the concept of the [DNS exfiltration](https://www.infoblox
         ![cmd-filter-base64](./assets/cmd-filter-base64.png)
 
     4. `base64 -d` converts the base64 encoded string back to normal string which is the flag
+    
         ![flag](./assets/flag.png)
 
 11. You can submit the flag derived from the above command to PicoCTF and complete the challenge. 
