@@ -60,7 +60,7 @@ This challenge covers the concept of the [DNS exfiltration](https://www.infoblox
 
         ![cmd-filter-dns](./assets/cmd-filter-dns.png)
 
-    2. `awk '{ print $16 }' | awk -F . '{ print $1 } | | uniq ` extracts the subdomain from the request using `awk` and only keeps unique string using `uniq`
+    2. `awk '{ print $12 }' | awk -F . '{ print $1 } | uniq ` extracts the subdomain from the request using `awk` and only keeps unique string using `uniq`
 
         ![cmd-filter-subdomain](./assets/cmd-filter-subdomain.png)
 
