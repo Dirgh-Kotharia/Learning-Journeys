@@ -18,3 +18,4 @@
 |[strings it](./strings%20it/writeup.md)|100|
 |[bases](./bases/writeup.md)|100|
 |[First Grep](./First%20Grep/writeup.md)|100|
+|[Codebook](./Codebook/writeup.md)|100|
