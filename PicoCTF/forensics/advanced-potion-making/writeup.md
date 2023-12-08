@@ -35,10 +35,10 @@ This challenge is introduction to PNG headers.
 
     ![red-image](./assets/red-image.png)
 
-6. Since we got a full red-image I decided to use a tool called [stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) as I thought it was using stegnography. It is a tool that will help us examine the different color planes in the image. Once you have [stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) installed `(install instruction on steg solve page)`. open the image in the `stegsolve`. we can use the arrows below to navigate through diffferent planes.
+6. Since We got a full red image I assumed it was stegnography. I used an open-source online tool called [stegOnline](https://stegonline.georgeom.net/upload). Once I uploaded the image there I clicked on the `Browse Bit Plane` to analyze the PNG on diffrent planes
 
-    ![stegsolve-file](./assets/stegsolve-file.png)
+    ![stegonline-file](./assets/stegonilne-file.png)
 
-7. Upon navigating to the `Red Plane 0` we see the flag (I have blurred the flag for writeup purpose). we can submit the flag and complete the challenge.
+7. Upon navigating to the `Red 0` we see the flag (I have blurred the flag for writeup purpose). we can submit the flag and complete the challenge.
 
     ![flag](./assets/flag.png)
