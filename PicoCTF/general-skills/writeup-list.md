@@ -21,3 +21,4 @@
 |[Codebook](./Codebook/writeup.md)|100|
 |[convertme.py](./convertme.py/writeup.md)|100|
 |[fixme1.py](./fixme1.py/writeup.md)|100|
+|[fixme2.py](./fixme2.py/writeup.md)|100|
