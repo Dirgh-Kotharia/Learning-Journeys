@@ -22,3 +22,4 @@
 |[convertme.py](./convertme.py/writeup.md)|100|
 |[fixme1.py](./fixme1.py/writeup.md)|100|
 |[fixme2.py](./fixme2.py/writeup.md)|100|
+|[Glitch Cat](./Glitch%20Cat/writeup.md)|100|
