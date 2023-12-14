@@ -24,3 +24,4 @@
 |[fixme2.py](./fixme2.py/writeup.md)|100|
 |[Glitch Cat](./Glitch%20Cat/writeup.md)|100|
 |[HashingJobApp](./HashingJobApp/writeup.md)|100|
+|[PW Crack 1](./PW%20Crack%201/writeup.md)|100|
