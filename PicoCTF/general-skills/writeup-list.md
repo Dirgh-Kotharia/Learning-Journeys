@@ -25,3 +25,4 @@
 |[Glitch Cat](./Glitch%20Cat/writeup.md)|100|
 |[HashingJobApp](./HashingJobApp/writeup.md)|100|
 |[PW Crack 1](./PW%20Crack%201/writeup.md)|100|
+|[PW Crack 2](./PW%20Crack%202/writeup.md)|100|
