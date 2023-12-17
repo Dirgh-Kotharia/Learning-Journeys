@@ -26,3 +26,4 @@
 |[HashingJobApp](./HashingJobApp/writeup.md)|100|
 |[PW Crack 1](./PW%20Crack%201/writeup.md)|100|
 |[PW Crack 2](./PW%20Crack%202/writeup.md)|100|
+|[PW Crack 3](./PW%20Crack%203/writeup.md)|100|

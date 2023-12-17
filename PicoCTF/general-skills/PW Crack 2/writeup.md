@@ -1,5 +1,5 @@
 ---
-tags:We
+tags:
   - general-skills
 points: 100 points
 ---
@@ -15,7 +15,7 @@ This challenge is similar to challenge [PW Crack 1](../PW%20Crack%201/writeup.md
 ##### Following are the steps for the challenge: 
 1. We are given a python script and an encoded file containing the flag. At the time of writing the python script was named `level2.py` and encrypted flag file named `level2.flag.txt.enc` but this might change in future.
 
-2. After downlaoding, I opened up the python script in an editor to read through the python file. we notice that we have open the `level2.flag.txt.enc` file and then it calls on the `level_1_pw_check()` function which takes `user_pw` as user input and then it validates if the input is equal to `8713`. if the validation succeeds it executes `str_xor()` function which seems to doing the decoding of the text from the `level2.flag.txt.enc`.
+2. After downlaoding, I opened up the python script in an editor to read through the python file. we notice that we have open the `level2.flag.txt.enc` file and then it calls on the `level_2_pw_check()` function which takes `user_pw` as user input and then it validates if the input is equal to `8713`. if the validation succeeds it executes `str_xor()` function which seems to doing the decoding of the text from the `level2.flag.txt.enc`.
 
     - main function : 
 
